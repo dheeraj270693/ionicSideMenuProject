@@ -3,6 +3,7 @@ import { AlertController, IonLabel } from '@ionic/angular';
 import { SpeechRecognition } from '@ionic-native/speech-recognition/ngx';
 import { Router } from '@angular/router';
 import {  NgZone } from '@angular/core';
+import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 
 @Component({
@@ -18,7 +19,9 @@ export class HomePage {
   constructor(private router: Router, 
     private alertController : AlertController, 
     private speechRecognition : SpeechRecognition,
-    private zone :NgZone) {
+    private zone :NgZone,
+    private textToSpeech :TextToSpeech
+    ){
     
     this.prepareForListening();
     //this.keepListening();
@@ -41,21 +44,24 @@ checkText(myText: string[]){
         // console.log(this.commands[i]);
           if (myText[i].toUpperCase() == this.commands[0]){
             console.log("YESSSSSSSS hello there");
-            this.IslamFunction("Hi there");
+            this.islamFunction("Hi there");
           } else{
             if (myText[i].toUpperCase() == this.commands[1]){
               console.log("YESSSSSSSS next page");
               this.router.navigateByUrl('list');
-          }
+            }
           }
           
-        }
-        
       }
+        
     }
-    IslamFunction(myText: string){
-
-    }
+  }
+  islamFunction(myText: string){
+    console.log(myText);
+      this.textToSpeech.speak({text:myText, rate:1})
+    .then(() => console.log('Success'))
+    .catch((reason: any) => console.log(reason));
+  }
   prepareForListening(){
     this.speechRecognition.isRecognitionAvailable()
     .then((available: boolean) => 
