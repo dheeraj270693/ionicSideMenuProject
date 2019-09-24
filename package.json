@@ -21,23 +21,24 @@
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
     "@ionic-native/core": "^5.0.0",
+    "@ionic-native/device": "^5.14.0",
+    "@ionic-native/flashlight": "^5.14.0",
+    "@ionic-native/social-sharing": "^5.14.0",
     "@ionic-native/speech-recognition": "^5.14.0",
     "@ionic-native/splash-screen": "^5.0.0",
+    "@ionic-native/sqlite": "^5.14.0",
     "@ionic-native/status-bar": "^5.0.0",
-<<<<<<< HEAD
     "@ionic-native/text-to-speech": "^5.14.0",
     "@ionic/angular": "^4.7.1",
-<<<<<<< HEAD
     "cordova-ios": "^5.0.1",
-    "cordova-plugin-tts": "^0.2.3",
-=======
-    "@ionic/angular": "^4.7.1",
->>>>>>> firstBranch
-=======
-    "cordova-ios": "5.0.1",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-flashlight": "^3.2.0",
     "cordova-plugin-speechrecognition": "^1.2.0",
->>>>>>> NoraBranch
+    "cordova-plugin-tts": "^0.2.3",
+    "cordova-plugin-x-socialsharing": "^5.6.0",
+    "cordova-sqlite-storage": "^3.3.0",
     "core-js": "^2.5.4",
+    "es6-promise-plugin": "^4.2.2",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
@@ -47,11 +48,7 @@
     "@angular-devkit/build-angular": "~0.801.2",
     "@angular-devkit/core": "~8.1.2",
     "@angular-devkit/schematics": "~8.1.2",
-<<<<<<< HEAD
-    "@angular/cli": "8.1.3",
-=======
     "@angular/cli": "~8.1.2",
->>>>>>> firstBranch
     "@angular/compiler": "~8.1.2",
     "@angular/compiler-cli": "~8.1.2",
     "@angular/language-service": "~8.1.2",
@@ -60,21 +57,11 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> NoraBranch
-    "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.1.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
-<<<<<<< HEAD
-=======
->>>>>>> firstBranch
-=======
->>>>>>> NoraBranch
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -87,39 +74,26 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-tts": {},
-=======
-  "description": "An Ionic project",
-  "cordova": {
-    "plugins": {
->>>>>>> NoraBranch
+      "cordova-plugin-device": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-<<<<<<< HEAD
-      "cordova-plugin-ionic-keyboard": {}
-=======
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-speechrecognition": {}
->>>>>>> NoraBranch
+      "cordova-plugin-tts": {},
+      "cordova-plugin-x-socialsharing": {
+        "PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+        "PHOTO_LIBRARY_USAGE_DESCRIPTION": "This app requires photo library access to function properly."
+      },
+      "cordova-plugin-speechrecognition": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-flashlight": {}
     },
     "platforms": [
       "ios"
     ]
   }
-<<<<<<< HEAD
 }
-=======
-  "description": "An Ionic project"
-}
->>>>>>> firstBranch
-=======
-}
->>>>>>> NoraBranch

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 @Component({
   selector: 'app-texttospeech',
@@ -9,17 +8,17 @@ import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 export class TexttospeechPage implements OnInit {
   textspeech:string;
-  constructor(private tts: TextToSpeech) { }
+  constructor() { }
   
   ngOnInit() {
   }
   
 
-  texttospeech(){
-    // console.log(this.textspeech);
-    this.tts.speak(this.textspeech)
-  .then(() => console.log('Success'))
-  .catch((reason: any) => console.log(reason));
-  }
+  // texttospeech(){
+  //   // console.log(this.textspeech);
+  //   this.tts.speak(this.textspeech)
+  // .then(() => console.log('Success'))
+  // .catch((reason: any) => console.log(reason));
+  // }
 
 }
