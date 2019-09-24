@@ -14,8 +14,12 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+<<<<<<< HEAD
   },
   { path: 'texttospeech', loadChildren: './texttospeech/texttospeech.module#TexttospeechPageModule' }
+=======
+  }
+>>>>>>> firstBranch
 ];
 
 @NgModule({

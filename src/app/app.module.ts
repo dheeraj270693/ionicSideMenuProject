@@ -8,7 +8,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,7 +20,10 @@ import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
   providers: [
     StatusBar,
     SplashScreen,
+<<<<<<< HEAD
     TextToSpeech,
+=======
+>>>>>>> firstBranch
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
