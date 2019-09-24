@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
-
+ 
+  test(){
+    console.log("This is just test");
+    
+  }
 }
