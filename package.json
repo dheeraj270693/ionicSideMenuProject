@@ -21,16 +21,22 @@
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
     "@ionic-native/core": "^5.0.0",
+    "@ionic-native/speech-recognition": "^5.14.0",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
 <<<<<<< HEAD
     "@ionic-native/text-to-speech": "^5.14.0",
     "@ionic/angular": "^4.7.1",
+<<<<<<< HEAD
     "cordova-ios": "^5.0.1",
     "cordova-plugin-tts": "^0.2.3",
 =======
     "@ionic/angular": "^4.7.1",
 >>>>>>> firstBranch
+=======
+    "cordova-ios": "5.0.1",
+    "cordova-plugin-speechrecognition": "^1.2.0",
+>>>>>>> NoraBranch
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -55,14 +61,20 @@
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> NoraBranch
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.1.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
+<<<<<<< HEAD
 =======
 >>>>>>> firstBranch
+=======
+>>>>>>> NoraBranch
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -76,23 +88,38 @@
     "typescript": "~3.4.3"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
       "cordova-plugin-tts": {},
+=======
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+>>>>>>> NoraBranch
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
+<<<<<<< HEAD
       "cordova-plugin-ionic-keyboard": {}
+=======
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-speechrecognition": {}
+>>>>>>> NoraBranch
     },
     "platforms": [
       "ios"
     ]
   }
+<<<<<<< HEAD
 }
 =======
   "description": "An Ionic project"
 }
 >>>>>>> firstBranch
+=======
+}
+>>>>>>> NoraBranch
