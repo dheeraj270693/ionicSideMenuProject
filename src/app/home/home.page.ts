@@ -4,6 +4,7 @@ import { SpeechRecognition } from '@ionic-native/speech-recognition/ngx';
 import { Router } from '@angular/router';
 import {  NgZone } from '@angular/core';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',

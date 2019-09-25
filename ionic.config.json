@@ -1,17 +1,7 @@
 {
-  "name": "ionicProject",
-<<<<<<< HEAD
-<<<<<<< HEAD
+  "name": "pluginProject",
   "integrations": {
     "cordova": {}
   },
-=======
-  "integrations": {},
->>>>>>> firstBranch
-=======
-  "integrations": {
-    "cordova": {}
-  },
->>>>>>> NoraBranch
   "type": "angular"
 }
